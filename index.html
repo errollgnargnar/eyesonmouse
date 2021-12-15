@@ -11,8 +11,7 @@
       </div>
     </div>
   </body>
-  <script>
-    var balls = document.getElementsByClassName("ball");
+  <script src="eyes.js"    var balls = document.getElementsByClassName("ball");
     document.onmousemove = () => {
       var x = (event.clientX * 100) / window.innerWidth + "%";
       var y = (event.clientY * 100) / window.innerHeight + "%";
@@ -22,6 +21,6 @@
         balls[i].style.top = y;
         balls[i].transform = "translate(-" + x + ",-" + y + ")";
       }
-    };
+    };>
   </script>
 </html>
